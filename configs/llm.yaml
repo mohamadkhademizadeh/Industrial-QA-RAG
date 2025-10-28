@@ -1,0 +1,11 @@
+provider: openai    # 'openai' or 'ollama'
+openai:
+  base_url: null      # optional override for OpenAI-compatible endpoints
+  model: "gpt-4o-mini"
+ollama:
+  host: "http://localhost:11434"
+  model: "llama3"
+retrieval:
+  top_k: 5
+  max_context_chars: 6000
+embedding_model: "all-MiniLM-L6-v2"
